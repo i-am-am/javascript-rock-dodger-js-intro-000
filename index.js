@@ -92,7 +92,7 @@ function createRock(x) {
       if (top < GAME_HEIGHT) {
          window.requestAnimationFrame(moveRock)
       }
-      window.requestAnimationFrame(step)
+      window.requestAnimationFrame(moveRock)
     } else {
     /**
      * But if the rock *has* reached the bottom of the GAME,
